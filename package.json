@@ -1,5 +1,6 @@
 {
     "name": "java-gradle-standard-version-sample",
+    "version": "0.0.0-semantically-released",
     "scripts": {
         "cm": "cz",
         "semantic-release": "semantic-release"
@@ -20,19 +21,25 @@
         }
     },
     "release": {
-        "pkgRoot": "dist/",
+        "pkgRoot": "dist",
         "plugins": [
             "@semantic-release/commit-analyzer",
             "@semantic-release/release-notes-generator",
             "@semantic-release/changelog",
-            "@semantic-release/github",
+            [
+                "@semantic-release/github",
+                {
+                    "assets": [
+                        {
+                            "path": "dist/",
+                            "label": "distribution"
+                        }
+                    ]
+                }
+            ],
             "@semantic-release/git"
         ],
         "npmPublish": false
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/",
-        "access": "public"
     },
     "commitlint": {
         "extends": [
