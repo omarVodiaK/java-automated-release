@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/omarVodiaK/java-automated-release/compare/v2.3.0...v2.4.0) (2022-01-09)
+
+
+### Features
+
+* add some code in code.js ([b7df479](https://github.com/omarVodiaK/java-automated-release/commit/b7df4793e54d4e0cb3178b531c369466db073dc8))
+
 # [2.3.0](https://github.com/omarVodiaK/java-automated-release/compare/v2.2.0...v2.3.0) (2022-01-09)
 
 
