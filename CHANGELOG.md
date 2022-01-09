@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/omarVodiaK/java-automated-release/compare/v2.2.0...v2.3.0) (2022-01-09)
+
+
+### Features
+
+* add assets path config ([a19b8d5](https://github.com/omarVodiaK/java-automated-release/commit/a19b8d5bca176c566889564f56a0862fb556bbde))
+
 # [2.2.0](https://github.com/omarVodiaK/java-automated-release/compare/v2.1.1...v2.2.0) (2022-01-09)
 
 
